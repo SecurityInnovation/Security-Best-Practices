@@ -1,12 +1,12 @@
 # Security-Best-Practices
-A Incomplete Security / Privacy Guide for the Masses
+An Incomplete Security / Privacy Guide for the Masses
 
 ##About
 
 This guide is intended to help people who care about their online privacy / security but need more information to make better security aware decissions.
 
 ##Goals
-Often with security and privacy concerns there exist trade offs with usability and complexity. The safest user is often the one who doesn't use the Internet, but if you would like to climb out from under your rock to join us, this guide is here to help you. Getting to a point where you can be reasonably confident in your personal security and privacy online can take a lot of effort, due diligence, and technical vigilence. All of the items in this guide can be overwhelming. Don't treat these items as hard and fast rules to tackle all at once. Over time do your best to improve your security posture by implementing and trying out more of these practices. Once you have tried many of them out, you can then decided for yourelf what your security and privacy needs are compared to your risk tolerance and how inconvenienced it makes your life.
+Often with security and privacy concerns there exist trade offs with usability and complexity. The safest user is often the one who doesn't use the Internet, but if you would like to climb out from under your rock to join us, this guide is here to help you. Getting to a point where you can be reasonably confident in your personal security and privacy online can take a lot of effort, due diligence, and technical vigilence. All of the items in this guide can be overwhelming. Don't treat these items as hard and fast rules to tackle all at once, rather over time do your best to improve your security posture by implementing and trying out more of these practices. Once you have tried many of them out, you can then decided for yourelf what your security and privacy needs are compared to your risk tolerance and how inconvenienced it makes your life.
 
 ##Topics
 
@@ -31,21 +31,67 @@ Make use of 3rd party applications to communicate securely with friends who woul
 
 ###Chat (gtalk / other messengers)
 
+####Threat
+In using 3rd party chat applications like Skype, Gtalk, Facebook message, and countless others, you are opening yourself up to having all of your private communication stored on that applications server indefinitely. There have also been many attempts (successful and unsuccessful) by governments to gain access to this data by court orders or by forcing the companies to install backdoor access. Additionaly if any of these chat applicatons gets hacked, and it happens a lot (cough snapchat), all of your conversations could be exposed.
+
+####Modest Solution
+Off-The-Record (OTR) is an encryption libary that plugs into popular chat clients (Adium for Mac or Pidgin for Windows and Nix). The setup steps for all parties that wish to communicate security is as follows:
+1. Downlaod the chat client - <links>
+2. Connect your desired accounts (gtalk, etc)
+3. Install the OTR plugin -<links>
+4. Enable OTR and generate a private key / fingerprint
+5. Force encryption on all chats
+
 ###Local Storage
 
+####Threat
+If you have ever lost or had a device stolen you know that it can be pretty devastating. What's worse is if the data is not encrypted not only will you have lost the data but it could also be in the hands of someone else.
+
+####Solution
+Anywhere sensitive data is stored whether that be on a desktop computer, laptop, mobile device, tablet, USB drive, or memory chip. Full disk encryption should be implemented and a strong passphase should be used to lock it.
+
+####Device Specific Solutions 
+*Windows
+*iOS
+*Android
+*USB Drives
+
 ###iOS Mobile Devices
+There are many iOS security guidelines -- Link to a few
 
 ###Android Mobile Devices
-
-###VPN
-
-###Proxies
+There are many android security guidelines -- Link to a few
 
 ###Passwords
 
-###Password Managers
+####Threat
+Passwords are proably one of the weakest parts of the Internet (authors ramblings). They can be guessed, stolen, stored incorrectly, overused in repetition, found written next to computers, forcibly reset, and many more weaknesses.
 
-###2-Factor Authenticion
+####Solutions
+First of all whenever you hear password, you should think passphrase, gone are the days where you can use one word as a passphrase.
+
+Passphrases should be:
+*10-20 Characters long in almost all cases the longer the better
+*Make use of upper and lower case
+*Make use of special characters and numbers (ospace bar and tab often counts too)
+*Something you can remember (sometimes)
+*Not used on other sides (You shouldn't re-use the same password on your email, for banking etc.)
+
+#####Tips
+*Use a password manager whenever possible
+*Enable 2-Factor Authentication whereever possible
+
+#####Password Managers
+Password managers allow you to use unique, strong, randomly generated passwords accross a variety of accounts and store them securely in an encrypted database on your machine or 'in the cloud'. This database should be encrypted wiht a strong passphrase and not shared with anyone. One draw back is that this creates a central repository of all your passwords. This is often seen as a convenience / ease of use trade off between using a password manager and having to remember multiple weaker passwords accross many sites. Given the central repository of passwords that could unlock all of your accounts there is an additional risk of using a password manager that syncs with a remote server and shares your passwords with all devices. If you are more risk adverse look for a password manager that does not sync remotely or disable this feature.
+
+#####2-Factor Authenticion (2FA)
+
+There are three main types of authentication mechanisms in use today, what you know (passwords, usernames, SIN number); what you have (keys, access badges, your cell phone); and what you are (biometrics). Two or multi factor authentication refers to using 2 or more nof these methods to prove you are how you claim to be. Where ever possible you should enable 2FA for all of your online accounts. The common method that most applications are using is password + a special verification code sent to your cell phone. That way if you know your password and have your cell phone you will be permitted to login to the applicaiton. Facebook, Google, and Twitter all support 2FA so you should start by enabling these and then expand from there.
+
+Steps for each Site:
+*Facebook - add link
+*Google - add link
+*Twitter - add link
 
 ###SSL /TLS
 
@@ -55,3 +101,19 @@ Make use of 3rd party applications to communicate securely with friends who woul
 
 ###Updates
 
+###Social Engineering
+
+###Browser Security
+
+###Safe Torrenting
+
+###Backups and iCloud
+
+###VPN
+
+###Proxies
+
+##Resources and References
+1. https://gist.github.com/grugq/353b6fc9b094d5700c70 - Point for quick free security advice. Some points come from this source but are expanded on for more accessibility
+2. https://storify.com/thegrugq/opsec-for-dating-websites - Specific advice for online dating safety
+3. http://www.irongeek.com/i.php?page=videos/bsidessf2015/201-fck-these-guys-practical-countersurveillance-lisa-lorenzin -- Still need to pull a few apps mentioned in this talk out and include them.
