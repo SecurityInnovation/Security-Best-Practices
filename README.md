@@ -1,2 +1,2 @@
 # Security-Best-Practices
-A Complete Security / Privacy Guide for the Masses
+A Incomplete Security / Privacy Guide for the Masses
