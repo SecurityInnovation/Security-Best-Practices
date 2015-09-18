@@ -29,7 +29,7 @@ The SMS protocol is another protocol where all data is sent in clear text and co
 ####Easy Solution
 Make use of 3rd party applications to communicate securely with friends who would both install the same application. TextSecure for Android and Signal for iOS are decent solutions although their security can't be guaranteed it is better then sending messages in plain text. Some chat applications with a history of breaches / vulnerabilities or that ask for excessive permissions to operate should be avoided (snapchat, whatsapp). 
 
-###Chat (gtalk / other messagengers)
+###Chat (gtalk / other messengers)
 
 ###Local Storage
 
@@ -48,4 +48,10 @@ Make use of 3rd party applications to communicate securely with friends who woul
 ###2-Factor Authenticion
 
 ###SSL /TLS
+
+###Social Media and Dating Sites
+
+###GPS Tagging
+
+###Updates
 
