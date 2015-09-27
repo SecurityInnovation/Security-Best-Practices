@@ -1,5 +1,5 @@
 # Security-Best-Practices
-An Incomplete Security and Privacy Guide for the masses
+An Incomplete Security and Privacy Guide for the Masses
 
 ##About
 
