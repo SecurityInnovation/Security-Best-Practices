@@ -14,4 +14,4 @@ Often with security and privacy concerns there exist trade-offs with usability a
 All of the items in this guide can be overwhelming. Don't treat these items as hard and fast rules to tackle all at once, rather over time do your best to improve your overall personal security and privacy by implementing and trying out more of these practices. Once you have tried many of them out, you can then decide for yourself what your security and privacy needs are compared to the relative inconvenience and acceptance for the listed threats.
 
 ##The Securitty Best Practices Guide
-https://github.com/MrVaughan/Security-Best-Practices/wiki
+https://github.com/SecurityInnovation/Security-Best-Practices/wiki
