@@ -1,13 +1,13 @@
 #Security Best Practices
-An Incomplete Security and Privacy Guide for the Masses
+A Security and Privacy Guide for non-technical users
 
 ##About
 
-This guide is intended to help people who care about their online security and privacy but need more information to make better security-aware decisions.
+This guide is intended to help people who care about their online security and privacy but aren't computer and security experts. Its intention is to provide real world guidance that can be applied immeidately in a non-threatinging way. 
 
 ##Goals
 
-Often with security and privacy concerns there exist trade-offs with usability and complexity. The most secure user is often the one who doesn't use the Internet, but if you would like to climb out from under your rock to join the rest of us on the Internet, this guide is here to help you. Getting to a point where you can be reasonably confident in your personal security and privacy online can take a lot of effort, due diligence, and technical vigilance. 
+Often with security and privacy concerns there exist trade-offs with usability and complexity. The most secure user is often the one who doesn't use the Internet, but if you would like to climb out from under your rock to join the rest of us on the Internet, this guide is here to help you. Getting to a point where you can be reasonably confident in your personal security and privacy online can take a some effort, due diligence, and technical vigilance, bue you'll find is achievable. 
 
 ##Advice
 
