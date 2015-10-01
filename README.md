@@ -17,6 +17,6 @@ All of the items in this guide can be overwhelming. Don't treat these items as h
 
 If you are a computer or security expert, or if you see things that could be improved as you implement these practices in your day to day life please let us know by submitting a github issue to the project.
 
-##The Securitty Best Practices Guide
+##The Security Best Practices Guide
 https://github.com/SecurityInnovation/Security-Best-Practices/wiki
 
