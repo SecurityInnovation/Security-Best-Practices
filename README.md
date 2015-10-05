@@ -7,7 +7,7 @@ This guide is intended to help people who care about their online security and p
 
 ##Goals
 
-Often with security and privacy concerns there exist trade-offs with usability and complexity. The most secure user is often the one who doesn't use the Internet, but if you would like to climb out from under your rock to join the rest of us on the Internet, this guide is here to help you. Getting to a point where you can be reasonably confident in your personal security and privacy online can take a some effort, due diligence, and technical vigilance, bue you'll find is achievable.
+Often with security and privacy concerns there exist trade-offs with usability and complexity. The most secure user is often the one who doesn't use the Internet, but if you would like to climb out from under your rock to join the rest of us on the Internet, this guide is here to help you. Getting to a point where you can be reasonably confident in your personal security and privacy online can take a some effort, due diligence, and technical vigilance, but you'll find it achievable.
 
 ##Advice
 
